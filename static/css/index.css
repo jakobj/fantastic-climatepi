@@ -1,0 +1,81 @@
+<style type="text/css">
+table {
+    margin: 0 auto;
+}
+table.gridtable {
+    font-family: verdana,arial,sans-serif;
+    font-size: 12px;
+    color: #333333;
+    margin: 0 auto;
+    margin-top: 1%;
+    max-width: 310px;
+    width: 310px;
+    table-layout: fixed;
+}
+table.gridtable th {
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #dedede;
+    background-color: #dedede;
+}
+table.gridtable td {
+    border-width: 0px;
+    padding: 8px;
+    border-style: none;
+    border-color: #666666;
+    background-color: #ffffff;
+    font-size: 12px;
+}
+table.gridtable td.date {
+    text-align: right;
+    padding-left: 12px;
+    padding-right: 0px;
+}
+table.gridtable td.current_temperature_normal {
+    text-align: right;
+    padding-left: 12px;
+    padding-right: 0px;
+}
+table.gridtable td.current_temperature_low {
+    text-align: right;
+    padding-left: 12px;
+    padding-right: 0px;
+    color: #3385ff;
+    font-weight: bold;
+}
+table.gridtable td.current_temperature_high {
+    text-align: right;
+    padding-left: 12px;
+    padding-right: 0px;
+    color: #ff3333;
+    font-weight: bold;
+}
+table.gridtable td.current_humidity_normal {
+    text-align: right;
+    padding-left: 12px;
+    padding-right: 0px;
+}
+table.gridtable td.current_humidity_low {
+    text-align: right;
+    padding-left: 12px;
+    padding-right: 0px;
+    color: #3385ff;
+    font-weight: bold;
+}
+table.gridtable td.current_humidity_high {
+    text-align: right;
+    padding-left: 12px;
+    padding-right: 0px;
+    color: #ff3333;
+    font-weight: bold;
+}
+img.plot {
+    max-width: 100%;
+    height: auto;
+}
+img.photo {
+    max-width: 100%;
+    height: auto;
+}
+</style>
